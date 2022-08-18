@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 import requests
 from prometheus_fastapi_instrumentator import Instrumentator
-import logging
+import logging.config
 
 # setup loggers
 logging.config.fileConfig('logging.conf', disable_existing_loggers=False)
